@@ -65,7 +65,7 @@ function dice() {
     if (random == inputValo.value) {
         document.getElementById(`co${inputValo.value}`).style.backgroundColor='green'
         document.getElementById('loss').innerText= 'win'
-        num += 3
+        num = num +3
         
     }else{
         document.getElementById('loss').innerText= 'loss'
