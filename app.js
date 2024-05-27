@@ -27,7 +27,7 @@ function dice() {
         document.getElementById('co4').style.backgroundColor='transparent'
         document.getElementById('co5').style.backgroundColor='transparent'
         document.getElementById('co6').style.backgroundColor='transparent'
-        para += 2
+        num = num +3
     }else if (random == 3){
         document.getElementById('co1').style.backgroundColor='transparent'
         document.getElementById('co2').style.backgroundColor='transparent'
@@ -35,7 +35,7 @@ function dice() {
         document.getElementById('co4').style.backgroundColor='transparent'
         document.getElementById('co5').style.backgroundColor='transparent'
         document.getElementById('co6').style.backgroundColor='transparent'
-        para += 2
+        num = num +3
     }else if (random == 4){
         document.getElementById('co1').style.backgroundColor='transparent'
         document.getElementById('co2').style.backgroundColor='transparent'
@@ -43,7 +43,7 @@ function dice() {
         document.getElementById('co4').style.backgroundColor='red'
         document.getElementById('co5').style.backgroundColor='transparent'
         document.getElementById('co6').style.backgroundColor='transparent'
-        para += 2
+        num = num +3
     }else if (random == 5){
         document.getElementById('co1').style.backgroundColor='transparent'
         document.getElementById('co2').style.backgroundColor='transparent'
@@ -51,7 +51,7 @@ function dice() {
         document.getElementById('co4').style.backgroundColor='transparent'
         document.getElementById('co5').style.backgroundColor='red'
         document.getElementById('co6').style.backgroundColor='transparent'
-        para += 2
+        num = num +3
     }else if (random == 6){
         document.getElementById('co1').style.backgroundColor='transparent'
         document.getElementById('co2').style.backgroundColor='transparent'
@@ -59,7 +59,7 @@ function dice() {
         document.getElementById('co4').style.backgroundColor='transparent'
         document.getElementById('co5').style.backgroundColor='transparent'
         document.getElementById('co6').style.backgroundColor='red'
-        para += 2
+        num = num +3
     }
     
     if (random == inputValo.value) {
